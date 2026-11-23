@@ -1,0 +1,48 @@
+{"ts": "2026-11-23T09:35:49.714", "service": "payment-service", "level": "INFO", "event": "service_started", "port": 8001, "delay_seconds": 0.0}
+{"ts": "2026-11-23T09:42:37.464", "service": "payment-service", "level": "INFO", "event": "payment_received", "request_id": "fbd5ae2d-9064-4804-b9e0-48343ec64e1b", "order_id": "ord-4d9346", "amount": 49.99}
+{"ts": "2026-11-23T09:42:37.465", "service": "payment-service", "level": "INFO", "event": "payment_completed", "request_id": "fbd5ae2d-9064-4804-b9e0-48343ec64e1b", "status": 200, "latency_ms": 0.3}
+{"ts": "2026-11-23T09:43:35.070", "service": "payment-service", "level": "INFO", "event": "payment_received", "request_id": "f63debe5-2a84-415f-b2ba-40dd10cb944b", "order_id": "ord-03e0cc", "amount": 49.99}
+{"ts": "2026-11-23T09:43:35.070", "service": "payment-service", "level": "INFO", "event": "payment_completed", "request_id": "f63debe5-2a84-415f-b2ba-40dd10cb944b", "status": 200, "latency_ms": 0.1}
+{"ts": "2026-11-23T09:43:35.071", "service": "payment-service", "level": "INFO", "event": "payment_received", "request_id": "2939ef6a-142c-42bd-8b0d-b4de3c9d3399", "order_id": "ord-5ac2c4", "amount": 49.99}
+{"ts": "2026-11-23T09:43:35.072", "service": "payment-service", "level": "INFO", "event": "payment_completed", "request_id": "2939ef6a-142c-42bd-8b0d-b4de3c9d3399", "status": 200, "latency_ms": 0.1}
+{"ts": "2026-11-23T09:43:35.072", "service": "payment-service", "level": "INFO", "event": "payment_received", "request_id": "e4cdb6c2-0e69-4b91-b90e-d9f6194b00f2", "order_id": "ord-8e54f8", "amount": 49.99}
+{"ts": "2026-11-23T09:43:35.073", "service": "payment-service", "level": "INFO", "event": "payment_completed", "request_id": "e4cdb6c2-0e69-4b91-b90e-d9f6194b00f2", "status": 200, "latency_ms": 0.1}
+{"ts": "2026-11-23T09:43:35.073", "service": "payment-service", "level": "INFO", "event": "payment_received", "request_id": "2fc2f891-60e2-49db-b9a6-edf165be3ff0", "order_id": "ord-5334b3", "amount": 49.99}
+{"ts": "2026-11-23T09:43:35.073", "service": "payment-service", "level": "INFO", "event": "payment_completed", "request_id": "2fc2f891-60e2-49db-b9a6-edf165be3ff0", "status": 200, "latency_ms": 0.0}
+{"ts": "2026-11-23T09:44:53.581", "service": "payment-service", "level": "WARNING", "event": "delay_changed", "delay_seconds": 5.0}
+{"ts": "2026-11-23T09:45:01.249", "service": "payment-service", "level": "INFO", "event": "payment_received", "request_id": "5f82b52f-05b7-4b70-bbfc-c07924cee069", "order_id": "ord-2bb52e", "amount": 49.99}
+{"ts": "2026-11-23T09:45:01.249", "service": "payment-service", "level": "WARNING", "event": "injected_delay", "request_id": "5f82b52f-05b7-4b70-bbfc-c07924cee069", "delay_seconds": 5.0}
+{"ts": "2026-11-23T09:45:03.256", "service": "payment-service", "level": "INFO", "event": "payment_received", "request_id": "bdb5b27b-a7ea-4ba7-ab29-c19b624d03b0", "order_id": "ord-a3beae", "amount": 49.99}
+{"ts": "2026-11-23T09:45:03.257", "service": "payment-service", "level": "WARNING", "event": "injected_delay", "request_id": "bdb5b27b-a7ea-4ba7-ab29-c19b624d03b0", "delay_seconds": 5.0}
+{"ts": "2026-11-23T09:45:05.262", "service": "payment-service", "level": "INFO", "event": "payment_received", "request_id": "2c3f7d37-28f3-44a9-83d8-2fb3d7cddfb5", "order_id": "ord-3fc997", "amount": 49.99}
+{"ts": "2026-11-23T09:45:05.263", "service": "payment-service", "level": "WARNING", "event": "injected_delay", "request_id": "2c3f7d37-28f3-44a9-83d8-2fb3d7cddfb5", "delay_seconds": 5.0}
+{"ts": "2026-11-23T09:45:06.255", "service": "payment-service", "level": "INFO", "event": "payment_completed", "request_id": "5f82b52f-05b7-4b70-bbfc-c07924cee069", "status": 200, "latency_ms": 5005.2}
+{"ts": "2026-11-23T09:45:07.268", "service": "payment-service", "level": "INFO", "event": "payment_received", "request_id": "28be03ce-972d-4c9d-98ee-4f043ba774ef", "order_id": "ord-6a36ee", "amount": 49.99}
+{"ts": "2026-11-23T09:45:07.268", "service": "payment-service", "level": "WARNING", "event": "injected_delay", "request_id": "28be03ce-972d-4c9d-98ee-4f043ba774ef", "delay_seconds": 5.0}
+{"ts": "2026-11-23T09:45:08.260", "service": "payment-service", "level": "INFO", "event": "payment_completed", "request_id": "bdb5b27b-a7ea-4ba7-ab29-c19b624d03b0", "status": 200, "latency_ms": 5002.7}
+{"ts": "2026-11-23T09:45:09.273", "service": "payment-service", "level": "INFO", "event": "payment_received", "request_id": "1f05fe86-739e-44ad-8e64-045a90676e94", "order_id": "ord-a9a543", "amount": 49.99}
+{"ts": "2026-11-23T09:45:09.274", "service": "payment-service", "level": "WARNING", "event": "injected_delay", "request_id": "1f05fe86-739e-44ad-8e64-045a90676e94", "delay_seconds": 5.0}
+{"ts": "2026-11-23T09:45:10.269", "service": "payment-service", "level": "INFO", "event": "payment_completed", "request_id": "2c3f7d37-28f3-44a9-83d8-2fb3d7cddfb5", "status": 200, "latency_ms": 5005.6}
+{"ts": "2026-11-23T09:45:12.272", "service": "payment-service", "level": "INFO", "event": "payment_completed", "request_id": "28be03ce-972d-4c9d-98ee-4f043ba774ef", "status": 200, "latency_ms": 5003.5}
+{"ts": "2026-11-23T09:45:14.276", "service": "payment-service", "level": "INFO", "event": "payment_completed", "request_id": "1f05fe86-739e-44ad-8e64-045a90676e94", "status": 200, "latency_ms": 5002.2}
+{"ts": "2026-11-23T09:50:22.964", "service": "payment-service", "level": "WARNING", "event": "delay_changed", "delay_seconds": 0.0}
+{"ts": "2026-11-23T09:50:30.921", "service": "payment-service", "level": "INFO", "event": "payment_received", "request_id": "0242a198-92da-40d9-bb32-6cde691585ea", "order_id": "ord-8f51ff", "amount": 49.99}
+{"ts": "2026-11-23T09:50:30.921", "service": "payment-service", "level": "INFO", "event": "payment_completed", "request_id": "0242a198-92da-40d9-bb32-6cde691585ea", "status": 200, "latency_ms": 0.1}
+{"ts": "2026-11-23T09:50:30.922", "service": "payment-service", "level": "INFO", "event": "payment_received", "request_id": "7cc45583-4be1-4607-a2c8-fb88df45f2bd", "order_id": "ord-c60686", "amount": 49.99}
+{"ts": "2026-11-23T09:50:30.922", "service": "payment-service", "level": "INFO", "event": "payment_completed", "request_id": "7cc45583-4be1-4607-a2c8-fb88df45f2bd", "status": 200, "latency_ms": 0.1}
+{"ts": "2026-11-23T09:50:30.923", "service": "payment-service", "level": "INFO", "event": "payment_received", "request_id": "8066b397-8538-41d1-85bd-6dd99c36f506", "order_id": "ord-4dcda0", "amount": 49.99}
+{"ts": "2026-11-23T09:50:30.923", "service": "payment-service", "level": "INFO", "event": "payment_completed", "request_id": "8066b397-8538-41d1-85bd-6dd99c36f506", "status": 200, "latency_ms": 0.1}
+{"ts": "2026-11-23T09:50:30.924", "service": "payment-service", "level": "INFO", "event": "payment_received", "request_id": "9f0090dc-7212-49e1-acc3-8cf6fd099429", "order_id": "ord-f89ac3", "amount": 49.99}
+{"ts": "2026-11-23T09:50:30.924", "service": "payment-service", "level": "INFO", "event": "payment_completed", "request_id": "9f0090dc-7212-49e1-acc3-8cf6fd099429", "status": 200, "latency_ms": 0.1}
+{"ts": "2026-11-23T09:50:30.925", "service": "payment-service", "level": "INFO", "event": "payment_received", "request_id": "ec9a4449-ae23-4e77-958d-ce5bddd92882", "order_id": "ord-792b57", "amount": 49.99}
+{"ts": "2026-11-23T09:50:30.925", "service": "payment-service", "level": "INFO", "event": "payment_completed", "request_id": "ec9a4449-ae23-4e77-958d-ce5bddd92882", "status": 200, "latency_ms": 0.0}
+{"ts": "2026-11-23T09:50:30.926", "service": "payment-service", "level": "INFO", "event": "payment_received", "request_id": "3f6ebc6b-24a2-43fb-9a62-84af2f539792", "order_id": "ord-992d16", "amount": 49.99}
+{"ts": "2026-11-23T09:50:30.926", "service": "payment-service", "level": "INFO", "event": "payment_completed", "request_id": "3f6ebc6b-24a2-43fb-9a62-84af2f539792", "status": 200, "latency_ms": 0.0}
+{"ts": "2026-11-23T09:50:30.927", "service": "payment-service", "level": "INFO", "event": "payment_received", "request_id": "e4d7e222-18c1-41bb-88a4-474a129671d6", "order_id": "ord-b54a99", "amount": 49.99}
+{"ts": "2026-11-23T09:50:30.927", "service": "payment-service", "level": "INFO", "event": "payment_completed", "request_id": "e4d7e222-18c1-41bb-88a4-474a129671d6", "status": 200, "latency_ms": 0.0}
+{"ts": "2026-11-23T09:50:30.928", "service": "payment-service", "level": "INFO", "event": "payment_received", "request_id": "4eca9f29-eabe-4d10-807c-17c0d71ed684", "order_id": "ord-2e77a0", "amount": 49.99}
+{"ts": "2026-11-23T09:50:30.928", "service": "payment-service", "level": "INFO", "event": "payment_completed", "request_id": "4eca9f29-eabe-4d10-807c-17c0d71ed684", "status": 200, "latency_ms": 0.0}
+{"ts": "2026-11-23T09:50:30.928", "service": "payment-service", "level": "INFO", "event": "payment_received", "request_id": "d779c9b6-a48c-4aa7-b5bd-c4af7ee2301d", "order_id": "ord-4e3576", "amount": 49.99}
+{"ts": "2026-11-23T09:50:30.929", "service": "payment-service", "level": "INFO", "event": "payment_completed", "request_id": "d779c9b6-a48c-4aa7-b5bd-c4af7ee2301d", "status": 200, "latency_ms": 0.0}
+{"ts": "2026-11-23T09:50:30.929", "service": "payment-service", "level": "INFO", "event": "payment_received", "request_id": "126dc5ae-a918-4868-a593-37b27f14414b", "order_id": "ord-141577", "amount": 49.99}
+{"ts": "2026-11-23T09:50:30.929", "service": "payment-service", "level": "INFO", "event": "payment_completed", "request_id": "126dc5ae-a918-4868-a593-37b27f14414b", "status": 200, "latency_ms": 0.0}
